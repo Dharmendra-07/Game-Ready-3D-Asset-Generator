@@ -1,0 +1,32 @@
+# Core ML Dependencies
+torch>=2.0.0
+transformers>=4.30.0
+diffusers>=0.21.0
+shap-e @ git+https://github.com/openai/shap-e.git
+
+# 3D Processing
+trimesh>=3.23.0
+pymeshlab>=2022.2
+open3d>=0.17.0
+pygltflib>=1.16.0
+
+# API and Queue
+fastapi>=0.104.0
+uvicorn>=0.24.0
+pydantic>=2.4.0
+redis>=5.0.0
+celery>=5.3.0
+python-multipart>=0.0.6
+
+# Utilities
+numpy>=1.24.0
+pillow>=10.0.0
+matplotlib>=3.7.0
+tqdm>=4.66.0
+pyyaml>=6.0
+aiofiles>=23.0.0
+
+# Development
+pytest>=7.4.0
+black>=23.10.0
+flake8>=6.1.0
